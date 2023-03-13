@@ -17,6 +17,11 @@ public class Cuffie extends Prodotto {
     public boolean getisWireless() {
         return isWireless;
     }
+
+    @Override
+    public String toString() {
+
+        return "Cuffie [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
 }
 
 

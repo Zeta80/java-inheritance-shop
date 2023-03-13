@@ -21,5 +21,8 @@ public class Smartphone extends Prodotto {
             return memoria;
         }
 
+    @Override
+    public String toString() {
 
+            return "Smartphone [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
 }

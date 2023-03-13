@@ -3,24 +3,16 @@ package org.lessons.shop;
     import java.util.Scanner;
 
     public class Carrello {
-        public static  Prodotto[] carrello = new Prodotto[2];
+        public static  Prodotto[] carrello;
 
-        private static Prodotto[] getCarrello() {
-            return carrello;
-        }
-
-        private static  void pushIntoArray(Prodotto element) {
-            if (carrello == null) {
-                carrello = new Prodotto[1];
-                carrello[0] = element;
-            } else {
-                Prodotto[] newArray = new Prodotto[carrello.length + 1];
-                for (int i = 0; i < carrello.length; i++) {
-                    newArray[i] = carrello[i];
-                }
-                newArray[carrello.length] = element;
-                carrello = newArray;
+        private static void pushIntoArray(Prodotto element) {
+            int length = (carrello == null) ? 0 : carrello.length;
+            Prodotto[] newArray = new Prodotto[length + 1];
+            for (int i = 0; i < length; i++) {
+                newArray[i] = carrello[i];
             }
+            newArray[length] = element;
+            carrello = newArray;
         }
 
         public static void main(String[] args) {
@@ -40,7 +32,7 @@ package org.lessons.shop;
 
                 if (tipoProdotto.equals("p")) {
                     System.out.println("ecco il tuo carrello: ");
-                    System.out.println(Arrays.toString(getCarrello()));
+                    System.out.println(Arrays.toString(carrello));
 
                     break;
                 }

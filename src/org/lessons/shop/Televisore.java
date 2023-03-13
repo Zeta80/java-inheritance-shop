@@ -17,4 +17,10 @@ public class Televisore extends Prodotto {
     public boolean getisSmart() {
         return isSmart;
     }
+
+
+    @Override
+    public String toString() {
+
+        return "Televisore [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
 }

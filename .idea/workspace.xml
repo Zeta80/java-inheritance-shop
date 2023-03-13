@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c636dd0-06cf-4307-a51e-74477bd2500c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-inheritance-shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/shop/Carrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/shop/Cuffie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/shop/Prodotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/shop/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/shop/Televisore.java" afterDir="false" />
+    <list default="true" id="3c636dd0-06cf-4307-a51e-74477bd2500c" name="Changes" comment="Add prodotto- subprodotti- carrello. NEED to stamp array">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/shop/Carrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/shop/Carrello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/shop/Cuffie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/shop/Cuffie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/shop/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/shop/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/shop/Televisore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/shop/Televisore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +49,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678713201250</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add prodotto- subprodotti- carrello. NEED to stamp array">
+      <created>1678719236429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678719236429</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/lessons/shop/Carrello.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add prodotto- subprodotti- carrello. NEED to stamp array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add prodotto- subprodotti- carrello. NEED to stamp array" />
   </component>
 </project>
