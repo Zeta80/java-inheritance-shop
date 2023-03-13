@@ -24,5 +24,5 @@ public class Smartphone extends Prodotto {
     @Override
     public String toString() {
 
-            return "Smartphone [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
+            return "Smartphone [nome=" + getNome() + ", prezzo=" + getPrezzo() + ", prezzo ivato=" + getPrezzoIvato() + ", imei=" + getImei() + "memoria=" + getMemoria() + "]";}
 }

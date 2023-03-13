@@ -21,7 +21,7 @@ public class Cuffie extends Prodotto {
     @Override
     public String toString() {
 
-        return "Cuffie [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
+        return "Cuffie [nome=" + getNome() + ", prezzo=" + getPrezzo() + ", prezzo ivato=" + getPrezzoIvato() + ", colore=" + getColore() + ", è wireless=" + getisWireless() + "]";}
 }
 
 

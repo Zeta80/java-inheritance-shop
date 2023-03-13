@@ -22,5 +22,5 @@ public class Televisore extends Prodotto {
     @Override
     public String toString() {
 
-        return "Televisore [nome=" + getNome() + ", prezzo=" + getPrezzo() + "]";}
+        return "Televisore [nome=" + getNome() + ", prezzo=" + getPrezzo() + ", prezzo ivato=" + getPrezzoIvato() + ", dimensioni=" + getDimensioni() + ", è smart=" + getisSmart() + "]";}
 }
